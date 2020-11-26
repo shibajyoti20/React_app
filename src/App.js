@@ -2,11 +2,14 @@ import logo from './logo.svg';
 import './App.css';
 
 import Greet from './components/Greet'
+import Intro from './components/Intro'
+
 
 function App() {
   return (
     <div className="App">
         <Greet />
+        <Intro/>
     </div>
   );
 }
